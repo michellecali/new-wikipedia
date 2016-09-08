@@ -2,6 +2,7 @@
 <html>
 <head>
  <link rel="stylesheet" type="text/css" href="global.css">
+ <script src="https://use.fontawesome.com/b80436529a.js"></script>
  <title>new-wikipedia</title>
 </head>
 <body>
@@ -9,7 +10,7 @@
 	<div class="pageAreaContainer">
 		<div class="pageTopPadding"></div>
 		<div class="pageContainer">
-			<div class="sideContainer">
+			<div class="leftContainer">
 				<div class="navIcon"></div>
 				<img class="wikiLogo" src="media/wikiLogo.png">
 				<div class="contentOutline">
@@ -31,8 +32,46 @@
 				</div>
 			</div>
 			<div class="centerContainer">
+				<div class="editBlock">
+					<img src="media/editIcon.png" class="editBlock__image">
+					<i class="fa fa-caret-down editBlock__arrow" aria-hidden="true"></i>
+				</div>
 			</div>
-			<div class="sideContainer">
+			<div class="rightContainer">
+				<div class="searchBar">
+					<img src="media/searchIcon.png" class="searchBar__image">
+				</div>
+				<div class="userBlock">
+					<img src="media/userIcon.png" class="userBlock__image">
+					<i class="fa fa-caret-down userBlock__arrow" aria-hidden="true"></i>
+				</div>
+				<div class="photoBlock">
+					<div class="photoBlock__title">MARTINIQUE</div>
+					<img src="media/blockPhoto.png" class="photoBlock__photo">
+				</div>
+				<div class="mapBlock">
+					<div class="mapBlock__title">
+						<div class="mapBlock__title--active">Country</div>
+						<div class="mapBlock__title--inactive">France</div>
+					</div>
+					<img src="media/blockMap.png" class="mapBlock__photo">
+					<div class="mapBlock__stats">
+						<div class="mapBlock__stat">
+							<div class="mapBlock__statsTitle">AREA</div>
+							<div class="mapBlock__statsStat">
+								<div class="mapBlock__statsValue">1128</div>
+								<div class="mapBlock__statsMetric">&nbsp;km<sup>2</sup></div>
+							</div>
+						</div>
+						<div class="mapBlock__stat">
+							<div class="mapBlock__statsTitle">DENSITY</div>
+							<div class="mapBlock__statsStat">
+								<div class="mapBlock__statsValue">340</div>
+								<div class="mapBlock__statsMetric">&nbsp;hab/km<sup>2</sup></div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
